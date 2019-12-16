@@ -1,8 +1,8 @@
 # JSON Command Line Tool Exercise
 
-Using Ruby, create a command line tool for querying JSON structures.
-The tool should accept a URI that points to the location it can load the JSON data from (either an online source or a local file), and offer a way to query this data.
-​
+Using Ruby, create a command line tool for querying JSON structures. The tool should accept a URI that points to the location it can load the JSON data from (either an online source or a local file), and offer a way to query this data.
+
+
 The tool should expect its input to be any array of uniform JSON objects, like the example below.
 ​
 ```
@@ -67,6 +67,7 @@ The tool should implement the following commands:
 ​
 - A `query` command that allows the user to query the JSON data by keys and returns all matching JSON objects.
 ​
+
 Here's a happy path use case example for using the tool:
 ​
 ```
